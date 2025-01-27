@@ -1,0 +1,32 @@
+  .work-history-container {
+    position: relative;
+  }
+
+  .work-history-container-hoverd {
+    background-color: khaki !important;
+  }
+
+  .work-history {
+    width: 55%;
+    height: 1%;
+    line-height: 1%;
+    margin: 0 4px !important;
+    text-align: center;
+  }
+
+  .work-history-hovered {
+    width: 51%;
+    height: 4%;
+    line-height: 50%;
+    font-weight: bold;
+    font-size: 23px;
+    margin: 9px 0 28px 9px !important;
+  }
+
+  .work-history-icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }

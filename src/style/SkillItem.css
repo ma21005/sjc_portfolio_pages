@@ -1,0 +1,58 @@
+  .skill_container {
+    margin: 0px !important;
+    padding: 6px !important;
+  }
+
+  .skill_icon_and_name_container {
+    display: flex;
+  }
+
+  .skill_name_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+  }
+
+  .skill_name {
+    font-size: 28px;
+    margin: 0;
+  }
+
+  .skill_icon_container {
+    width: 50px !important;
+    height: 50px !important;
+    margin: 0px !important;
+    padding: 6px !important;
+  }
+
+  .skill_icon {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+  }
+
+  .skill_star_and_level_container {
+    margin: 5px !important;
+    display: flex;
+  }
+
+  .skill_star_container {
+    width: 175px;
+    height: 35px;
+    background-color: black;
+  }
+
+  .skill_star {
+    width: 35px;
+    height: 35px;
+  }
+
+  .skill_level_container {
+    width: 40px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  }
