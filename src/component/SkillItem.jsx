@@ -1,7 +1,7 @@
-import "../style/SkillItem.css";
+import '../style/SkillItem.css';
 
 const SkillItem = ({ skill }) => {
-  const skillExperience = skill.experience
+  const skillExperience = skill.experience;
   const imagePath = `/img/skill_icons/${skill.name}.png`;
 
   return (
@@ -17,7 +17,12 @@ const SkillItem = ({ skill }) => {
       <div className="skill_star_and_level_container">
         <div className="skill_star_container">
           {Array.from({ length: skillExperience }).map((_, index) => (
-            <img key={index} className="skill_star" src="/img/skill_star.jpg" alt="Skill Star" />
+            <img
+              key={index}
+              className="skill_star"
+              src="/img/skill_star.jpg"
+              alt="Skill Star"
+            />
           ))}
         </div>
         <div className="skill_level_container">

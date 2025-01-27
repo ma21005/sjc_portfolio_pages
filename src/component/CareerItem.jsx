@@ -1,4 +1,4 @@
-import "../style/CareerItem.css";
+import '../style/CareerItem.css';
 
 const CareerItem = ({ career }) => {
   return (
@@ -13,7 +13,9 @@ const CareerItem = ({ career }) => {
         <span className="is-warning">DATES</span>
       </div>
       <div className="project_dates_container">
-        <p className="project_dates">{career.start_date} ～ {career.end_date}</p>
+        <p className="project_dates">
+          {career.start_date} ～ {career.end_date}
+        </p>
       </div>
       <div className="project_summary_label nes-badge">
         <span className="is-success">SUMMARY</span>
@@ -25,8 +27,13 @@ const CareerItem = ({ career }) => {
         <span className="is-error">TECH STACK</span>
       </div>
       <div className="project_tech_stack_container">
-        {career.skills.map(tech => (
-          <img key={tech} className="tech_stack" src={`/img/skill_icons/${tech}.png`}  alt={`${tech} icon`} />
+        {career.skills.map((tech) => (
+          <img
+            key={tech}
+            className="tech_stack"
+            src={`/img/skill_icons/${tech}.png`}
+            alt={`${tech} icon`}
+          />
         ))}
       </div>
     </div>

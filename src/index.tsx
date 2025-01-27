@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
-import GameBoy from './component/GameBoy'
+import GameBoy from './component/GameBoy';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(

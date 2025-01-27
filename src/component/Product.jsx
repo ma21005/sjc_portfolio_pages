@@ -1,7 +1,7 @@
-import ProductItem from './ProductItem'
+import ProductItem from './ProductItem';
 
 const Product = (props) => {
-  const {products, hoveredProductNum} = props;
+  const { products, hoveredProductNum } = props;
 
   return (
     <div style={{ height: '100%' }}>
@@ -17,5 +17,5 @@ const Product = (props) => {
     </div>
   );
 };
-  
+
 export default Product;

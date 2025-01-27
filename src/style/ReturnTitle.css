@@ -1,8 +1,7 @@
+.return-title-container {
+  margin: 50px 19px 0 19px !important;
+}
 
-  .return-title-container {
-    margin: 50px 19px 0 19px !important;
-  }
-
-  .no-radio {
-    margin-left: 38px;
-  }
+.no-radio {
+  margin-left: 38px;
+}

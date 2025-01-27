@@ -1,75 +1,74 @@
+.profile-container {
+  margin: 0px !important;
+  padding: 3px !important;
+}
 
-  .profile-container {
-    margin: 0px !important;
-    padding: 3px !important;
-  }
+.profile-data-container-1 {
+  display: flex;
+}
 
-  .profile-data-container-1 {
-    display: flex;
-  }
+.profile-icon-container {
+  width: 85px;
+  height: 85px;
+  margin: 5px !important;
+  padding: 6px !important;
+}
 
-  .profile-icon-container {
-    width: 85px;
-    height: 85px;
-    margin: 5px !important;
-    padding: 6px !important;
-  }
+.profile-icon {
+  width: 85px;
+  height: 85px;
+  background-color: khaki !important;
+}
 
-  .profile-icon {
-    width: 85px;
-    height: 85px;
-     background-color: khaki !important;
-  }
+.profile-name-and-age-container {
+  height: 85px;
+  margin: 5px 0 5px 3px;
+  padding: 6px 0 6px 0;
+}
 
-  .profile-name-and-age-container {
-    height: 85px;
-    margin: 5px 0 5px 3px;
-    padding: 6px 0 6px 0;
-  }
+.name-label {
+  font-size: 14px;
+  margin-bottom: 0;
+}
 
-  .name-label {
-    font-size: 14px;
-    margin-bottom: 0;
-  }
+.name-value {
+  font-size: 17px;
+  margin-left: 6px;
+  margin-bottom: 3px;
+}
 
-  .name-value {
-    font-size: 17px;
-    margin-left: 6px;
-    margin-bottom: 3px;
-  }
+.age-label-and-value {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
 
-  .age-label-and-value {
-    font-size: 14px;
-    margin-bottom: 5px;
-  }
+.blood-type-label-and-value {
+  font-size: 14px;
+  margin-bottom: 3px;
+}
 
-  .blood-type-label-and-value {
-    font-size: 14px;
-    margin-bottom: 3px;
-  }
+.profile-birthday-container {
+  margin-top: 3px;
+  margin-left: 10px;
+  margin-bottom: 7px;
+}
 
-  .profile-birthday-container {
-    margin-top: 3px;
-    margin-left: 10px;
-    margin-bottom: 7px;
-  }
+.birthday-label-and-value {
+  font-size: 14px;
+  margin-bottom: 3px;
+}
 
-  .birthday-label-and-value {
-    font-size: 14px;
-    margin-bottom: 3px;
-  }
+.profile-mail-address-container {
+  margin-left: 10px;
+}
 
-  .profile-mail-address-container {
-    margin-left: 10px;
-  }
+.mail-address-label {
+  font-size: 14px;
+  margin-bottom: 1px;
+}
 
-  .mail-address-label {
-    font-size: 14px;
-    margin-bottom: 1px;
-  }
-
-  .mail-address-value {
-    font-size: 14px;
-    margin-left: 13px;
-    margin-bottom: 5px;
-  }
+.mail-address-value {
+  font-size: 14px;
+  margin-left: 13px;
+  margin-bottom: 5px;
+}

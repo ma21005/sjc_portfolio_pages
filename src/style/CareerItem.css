@@ -1,69 +1,68 @@
+.career_container {
+  padding: 8px 12px !important;
+}
 
-  .career_container {
-    padding: 8px 12px !important;
-  }
+.project_name_label {
+  width: 50% !important;
+  margin: 15px auto 10px auto !important;
+  text-align: center;
+}
 
-  .project_name_label {
-    width: 50% !important;
-    margin: 15px auto 10px auto !important;
-    text-align: center;
-  }
+.project_name_container {
+  font-size: 18px;
+  text-align: center;
+  padding: 0 !important;
+  margin-bottom: 0 !important;
+}
 
-  .project_name_container {
-    font-size: 18px;
-    text-align: center;
-    padding: 0 !important;
-    margin-bottom: 0 !important;
-  }
+.project_name {
+  margin-bottom: 0 !important;
+}
 
-  .project_name {
-    margin-bottom: 0 !important;
-  }
+.project_dates_label {
+  width: 50% !important;
+  margin: 20px auto 10px auto !important;
+  text-align: center;
+}
 
-  .project_dates_label {
-    width: 50% !important;
-    margin: 20px auto 10px auto !important;
-    text-align: center;
-  }
+.project_dates_container {
+  text-align: center;
+}
 
-  .project_dates_container {
-    text-align: center;
-  }
+.project_dates {
+  margin-bottom: 0 !important;
+}
 
-  .project_dates {
-    margin-bottom: 0 !important;
-  }
+.project_summary_label {
+  width: 50% !important;
+  margin: 20px auto 10px auto !important;
+  text-align: center;
+}
 
-  .project_summary_label {
-    width: 50% !important;
-    margin: 20px auto 10px auto !important;
-    text-align: center;
-  }
+.project_summary_container {
+  text-align: center;
+}
 
-  .project_summary_container {
-    text-align: center;
-  }
+.project_summary {
+  margin-bottom: 0 !important;
+}
 
-  .project_summary {
-    margin-bottom: 0 !important;
-  }
+.project_tech_stack_label {
+  width: 50% !important;
+  margin: 20px auto 10px auto !important;
+  text-align: center;
+}
 
-  .project_tech_stack_label {
-    width: 50% !important;
-    margin: 20px auto 10px auto !important;
-    text-align: center;
-  }
+.project_tech_stack_container {
+  width: 100%;
+  margin: 0 auto 8px auto !important;
+  padding: 5px 0 !important;
+  background-color: rgb(85, 89, 93);
+  border-radius: 9px;
+}
 
-  .project_tech_stack_container {
-    width: 100%;
-    margin: 0 auto 8px auto !important;
-    padding: 5px 0 !important;
-    background-color: rgb(85, 89, 93);
-    border-radius: 9px;
-  }
-
-  .tech_stack {
-    width: 22%;
-    height: 22%;
-    margin: 1.5% 1.5%;
-  }
+.tech_stack {
+  width: 22%;
+  height: 22%;
+  margin: 1.5% 1.5%;
+}
