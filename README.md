@@ -1,6 +1,8 @@
 ## SJC_PORTFOLIO 2024
 https://202429d8.sjc-portfolio-pages.pages.dev/
 
+![image](https://github.com/user-attachments/assets/7bc775de-dfc2-4821-bbb6-3cfe44072011)
+
 ## How To Use
 <img src="https://github.com/user-attachments/assets/8634f3d1-b705-4359-92e6-8d5f85c9fd3b" width="1000" alt="sjc_portfolio_manual drawio">
 
