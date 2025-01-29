@@ -1,12 +1,10 @@
 import { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
-import WorkHistory from './WorkHistory';
-import Title from './Title';
 import Profile from './Profile';
 import Career from './Career';
 import Skill from './Skill';
 import Product from './Product';
-import ReturnTitle from './ReturnTitle';
+import ScreenComponent from './ScreenComponent';
 import titleBGMAudio from '../audio/TitleBGM.mp3';
 import basicBGMdAudio from '../audio/BasicBGM.mp3';
 import titleScreenButtonAudio from '../audio/titleScreenButton.mp3';
@@ -481,46 +479,24 @@ const GameBoy = () => {
   return (
     <div className="gba">
       {/* ↓↓ ============== 上画面 ============== ↓↓ */}
-      <div className="gba-upper">
-        {screenPower ? (
-          <div
-            className={titleScreen ? 'gba-screen-top' : 'gba-screen-menu'}
-            ref={!titleScreen && !menuScreen ? menuScreenRef : null}
-          >
-            {titleScreen ? (
-              <Title style={screenStyle} />
-            ) : menuScreen ? (
-              Array.from(
-                { length: columns.length },
-                (_, index) => index + 1
-              ).map((num) => (
-                <WorkHistory
-                  key={num}
-                  item={columns[num - 1]}
-                  isHovered={hoveredMenuNum === num}
-                />
-              ))
-            ) : showReturnTitle ? (
-              <ReturnTitle
-                selectedOption={selectedOption}
-                onSelectOption={setSelectedOption}
-              />
-            ) : detailScreen ? (
-              // メニュー画面にある各項目のコンポーネントを呼び出す
-              <ColumnComponent
-                careers={careers}
-                skills={skills}
-                products={products}
-                hoveredProductNum={hoveredProductNum}
-              />
-            ) : (
-              <></>
-            )}
-          </div>
-        ) : (
-          <div className="gba-screen-off"></div>
-        )}
-      </div>
+      <ScreenComponent
+        screenPower={screenPower}
+        titleScreen={titleScreen}
+        menuScreen={menuScreen}
+        showReturnTitle={showReturnTitle}
+        detailScreen={detailScreen}
+        careers={careers}
+        skills={skills}
+        products={products}
+        hoveredMenuNum={hoveredMenuNum}
+        hoveredProductNum={hoveredProductNum}
+        selectedOption={selectedOption}
+        columns={columns}
+        ColumnComponent={ColumnComponent}
+        screenStyle={screenStyle}
+        menuScreenRef={menuScreenRef}
+        setSelectedOption={setSelectedOption}
+      />
       {/* ↑↑ ============== 上画面 ============== ↑↑ */}
       <div className="gba-joint">
         <div className="gba-joint-line-1"></div>
