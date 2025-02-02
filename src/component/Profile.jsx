@@ -19,6 +19,20 @@ const Profile = () => {
       });
   }, []);
 
+  const calculateAge = (birthday) => {
+    const birthDate = new Date(birthday);
+    const today = new Date();
+    let age = today.getFullYear() - birthDate.getFullYear();
+    const monthDiff = today.getMonth() - birthDate.getMonth();
+    if (
+      monthDiff < 0 ||
+      (monthDiff === 0 && today.getDate() < birthDate.getDate())
+    ) {
+      age--;
+    }
+    return age;
+  };
+
   return (
     <div>
       {profiles.map((profile) => (
@@ -37,7 +51,10 @@ const Profile = () => {
             <div className="profile-name-and-age-container">
               <p className="name-label">Name：</p>
               <p className="name-value">{profile.name}</p>
-              <p className="age-label-and-value">Age：{profile.age}</p>
+              <p className="age-label-and-value">
+                Age：
+                {calculateAge(profile.birthday)}
+              </p>
               <p className="blood-type-label-and-value">
                 BloodType：{profile.blood_type}
               </p>
